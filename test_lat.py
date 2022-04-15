@@ -8,11 +8,10 @@ def test_Person_name():
     except_value = 'James'
 
     assert value.name == except_value
-#def test_Wizard():
-   # value = Wizard(100)
+def test_Wizard():
+    value = Wizard("ALAIN")
+    assert value.get_life_points() == 80
 
-   # except_value = 
-
-   # assert value.name == except_value
+  
 
 
